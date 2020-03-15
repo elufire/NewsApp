@@ -2,4 +2,7 @@
     <string name="app_name">NewsApplication</string>
     <string name="search_title">Search Articles</string>
     <string name="hint_for_search">Try Title or Author…</string>
+    <string name="by_author">By\n%s</string>
+    <string name="attention_heres_the_news">Attention Here\'s The News</string>
+    <string name="top_headlines">Top Headlines</string>
 </resources>

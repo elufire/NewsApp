@@ -13,7 +13,7 @@ import com.example.newsapplication.models.NewsTypes
 
 class ArticleRecyclerViewAdapter constructor(
     private val articles: List<NewsTypes.Article>
-):  RecyclerView.Adapter<RecyclerView.ViewHolder>(){
+):  RecyclerView.Adapter<ArticleRecyclerViewAdapter.ViewHolder>(){
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
         val layoutArticleBinding: ArticleLayoutBinding = DataBindingUtil.inflate(

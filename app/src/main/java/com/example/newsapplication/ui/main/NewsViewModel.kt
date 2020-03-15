@@ -1,9 +1,11 @@
 package com.example.newsapplication.ui.main
 
 import android.util.Log
+import androidx.databinding.ObservableArrayList
 import androidx.lifecycle.ViewModel
 import javax.inject.Inject
 import androidx.databinding.ObservableField
+import androidx.databinding.ObservableList
 import com.example.newsapplication.models.NewsTypes
 import com.example.newsapplication.network.NewsRepository
 import io.reactivex.android.schedulers.AndroidSchedulers
@@ -15,15 +17,19 @@ class NewsViewModel @Inject constructor(
 ) : ViewModel() {
 
     private val disposables = CompositeDisposable()
-    val title = ObservableField<String>("Get Your News")
-    val subHeader = ObservableField<String>("Attention")
+    val articles = ObservableArrayList<NewsTypes.Article>()
 
-    init {
-        getTopHeadlines()
+    fun getTopHeadlines() {
+        disposables.add(newsRepository.getTopHeadlines()
+            .subscribeOn(Schedulers.io())
+            .observeOn(AndroidSchedulers.mainThread())
+            .doOnError(this::topHeadlinesError)
+            .subscribe(this::setComponents)
+        )
     }
 
-    private fun getTopHeadlines() {
-        disposables.add(newsRepository.getTopHeadlines()
+    fun searchArticles(query: String) {
+        disposables.add(newsRepository.searchArticles(query)
             .subscribeOn(Schedulers.io())
             .observeOn(AndroidSchedulers.mainThread())
             .doOnError(this::topHeadlinesError)
@@ -36,8 +42,8 @@ class NewsViewModel @Inject constructor(
     }
 
     private fun setComponents(newsResponse: NewsTypes.NewsResponse) {
-        title.set(newsResponse.articles[0].title)
-        subHeader.set(newsResponse.articles[0].author)
+        articles.clear()
+        articles.addAll(newsResponse.articles)
     }
 
     override fun onCleared() {

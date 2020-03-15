@@ -10,4 +10,8 @@ class NewsRepositoryImpl @Inject constructor(
     override fun getTopHeadlines(): Observable<NewsTypes.NewsResponse> {
         return newsApi.getTopHeadlines()
     }
+
+    override fun searchArticles(query: String): Observable<NewsTypes.NewsResponse> {
+        return newsApi.searchArticles(query)
+    }
 }
