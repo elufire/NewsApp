@@ -12,15 +12,16 @@ import retrofit2.Retrofit
 import retrofit2.adapter.rxjava2.RxJava2CallAdapterFactory
 import retrofit2.converter.gson.GsonConverterFactory
 import java.io.IOException
+import javax.inject.Named
 import javax.inject.Singleton
 
 const val token = "a2bb244bfda74fbc9ca8bad823a7ea31"
 
 @Module
-class NetworkModule {
+open class NetworkModule {
 
     @Provides
-    fun provideOkhttpClient(): OkHttpClient =
+    open fun provideOkhttpClient(): OkHttpClient =
         OkHttpClient.Builder().addInterceptor { chain ->
             val newRequest = chain.request().newBuilder()
                 .addHeader("Authorization", "Bearer $token")
@@ -30,7 +31,7 @@ class NetworkModule {
 
     @Singleton
     @Provides
-    fun provideNewsApi(okHttpClient: OkHttpClient): NewsApi = Retrofit.Builder()
+    open fun provideNewsApi(okHttpClient: OkHttpClient): NewsApi = Retrofit.Builder()
         .baseUrl(baseUrl)
         .client(okHttpClient)
         .addConverterFactory(GsonConverterFactory.create())
@@ -40,5 +41,5 @@ class NetworkModule {
 
     @Singleton
     @Provides
-    fun providesNewsRepository(newsApi: NewsApi): NewsRepository = NewsRepositoryImpl(newsApi)
+    open fun providesNewsRepository(newsApi: NewsApi): NewsRepository = NewsRepositoryImpl(newsApi)
 }

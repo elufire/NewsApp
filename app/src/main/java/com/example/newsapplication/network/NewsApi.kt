@@ -5,8 +5,6 @@ import retrofit2.http.GET
 import io.reactivex.Observable
 import retrofit2.http.Query
 
-const val baseUrl = "http://newsapi.org/"
-
 interface NewsApi {
     @GET("v2/top-headlines?country=us")
     fun getTopHeadlines(): Observable<NewsTypes.NewsResponse>

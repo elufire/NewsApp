@@ -4,8 +4,6 @@ import android.util.Log
 import androidx.databinding.ObservableArrayList
 import androidx.lifecycle.ViewModel
 import javax.inject.Inject
-import androidx.databinding.ObservableField
-import androidx.databinding.ObservableList
 import com.example.newsapplication.models.NewsTypes
 import com.example.newsapplication.network.NewsRepository
 import io.reactivex.android.schedulers.AndroidSchedulers
@@ -23,8 +21,9 @@ class NewsViewModel @Inject constructor(
         disposables.add(newsRepository.getTopHeadlines()
             .subscribeOn(Schedulers.io())
             .observeOn(AndroidSchedulers.mainThread())
-            .doOnError(this::topHeadlinesError)
-            .subscribe(this::setComponents)
+            .subscribe(
+                {newsResponse -> setComponents(newsResponse)},
+                {error -> onArticlesError(error)})
         )
     }
 
@@ -32,13 +31,15 @@ class NewsViewModel @Inject constructor(
         disposables.add(newsRepository.searchArticles(query)
             .subscribeOn(Schedulers.io())
             .observeOn(AndroidSchedulers.mainThread())
-            .doOnError(this::topHeadlinesError)
-            .subscribe(this::setComponents)
+            .subscribe(
+                {newsResponse -> setComponents(newsResponse)},
+                {error -> onArticlesError(error)}
+            )
         )
     }
 
-    private fun topHeadlinesError(e: Throwable) {
-        Log.d("Jose", "There has been an error ${e.message}")
+    private fun onArticlesError(e: Throwable) {
+        Log.d("Jose", "onError ${e.message}")
     }
 
     private fun setComponents(newsResponse: NewsTypes.NewsResponse) {

@@ -6,7 +6,7 @@ import com.example.newsapplication.R
 import com.example.newsapplication.models.NewsTypes
 
 class ArticleViewModel constructor(
-    private val article: NewsTypes.Article
+    article: NewsTypes.Article
 ) {
     val title = ObservableField<String>("")
     val author = ObservableField<String>("")
@@ -18,6 +18,4 @@ class ArticleViewModel constructor(
         author.set(article.author)
         imageUrl.set(article.urlToImage)
     }
-
-
 }

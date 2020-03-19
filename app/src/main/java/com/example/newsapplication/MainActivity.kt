@@ -8,16 +8,14 @@ import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
 import android.widget.SearchView
-import androidx.fragment.app.FragmentActivity
 import com.example.newsapplication.ui.main.NewsFragment
-import io.reactivex.subjects.PublishSubject
-import io.reactivex.subjects.Subject
 
 class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.main_activity)
+        //handle passing search query to the fragment
         var searchQuery = ""
         if (Intent.ACTION_SEARCH == intent.action) {
             searchQuery = intent.getStringExtra(SearchManager.QUERY)
@@ -27,23 +25,6 @@ class MainActivity : AppCompatActivity() {
                 .replace(R.id.container, NewsFragment.newInstance(NewsFragment.createArgs(searchQuery)), "NewsFrag")
                 .commitNow()
         }
-        handleNewIntent(intent)
-    }
-
-    override fun onNewIntent(intent: Intent?) {
-        super.onNewIntent(intent)
-        intent?.let {
-            handleNewIntent(it)
-        }
-
-    }
-
-    private fun handleNewIntent(intent: Intent) {
-//        if (Intent.ACTION_SEARCH == intent.action) {
-//            val searchQuery = intent.getStringExtra(SearchManager.QUERY)
-//            val newsFrag = (supportFragmentManager.findFragmentByTag("NewsFrag") as NewsFragment)
-//            newsFrag.onSearchEvent(searchQuery)
-//        }
     }
 
     override fun onCreateOptionsMenu(menu: Menu): Boolean {

@@ -1,0 +1,266 @@
+{
+  "status": "ok",
+  "totalResults": 38,
+  "articles": [
+  {
+    "source": {
+      "id": null,
+      "name": "Nytimes.com"
+    },
+    "author": "Adam Nossiter, Raphael Minder, Elian Peltier",
+    "title": "Shutdowns Spread Across Europe as Spain, France Order Broad Restrictions - The New York Times",
+    "description": "Other European countries are turning to border closures to try to contain the coronavirus.",
+    "url": "https://www.nytimes.com/2020/03/14/world/europe/france-coronavirus.html",
+    "urlToImage": "https://static01.nyt.com/images/2020/03/14/world/14virus-briefing-france/14virus-briefing-france-facebookJumbo.jpg",
+    "publishedAt": "2020-03-15T00:21:10Z",
+    "content": "An Italian couple tested positive for the coronavirus in San Juan, Puerto Rico, late on Friday after they disembarked from the cruise ship. Costa Cruises, an Italian subsidiary of Miami-based Carnival Corp., says the ship is now heading to Marseilles, France.… [+1109 chars]"
+  },
+  {
+    "source": {
+      "id": "usa-today",
+      "name": "USA Today"
+    },
+    "author": "Michael Collins, Courtney Subramanian, Deirdre Shesgreen",
+    "title": "Trump tests negative for coronavirus, White House doctor says - USA TODAY",
+    "description": "Trump said on Saturday that he had been tested for coronavirus following his recent exposure to two Brazilian officials who later tested positive.",
+    "url": "https://www.usatoday.com/story/news/politics/2020/03/14/president-trump-tests-negative-coronavirus-white-house-says/5050710002/",
+    "urlToImage": "https://www.gannett-cdn.com/presto/2020/03/03/USAT/de1b045c-8893-4d2e-a6f5-06b37a271014-AP_Trump_4.JPG?crop=3128,1760,x0,y0&width=1600&height=800&fit=bounds",
+    "publishedAt": "2020-03-14T23:39:34Z",
+    "content": "Trump told reporters his temperature was \"totally normal.\" He said he took the test, and the results would take a \"few days.\"\r\nWochit\r\nWASHINGTON President Donald Trump has tested negative for the novel coronavirus, the White House announced on Saturday eveni… [+3731 chars]"
+  },
+  {
+    "source": {
+      "id": null,
+      "name": "Nypost.com"
+    },
+    "author": "Susan Edelman, Melissa Klein",
+    "title": "Momentum builds for NYC teacher 'sickout' mutiny over de Blasio's refusal to close schools - New York Post ",
+    "description": "Some New York City teachers are calling for “mass sickout” mutiny in defiance of Mayor Bill de Blasio’s refusal to close public schools to stem the coronavirus outbreak. With Twitter postings and e…",
+    "url": "https://nypost.com/2020/03/14/momentum-builds-for-nyc-teacher-sickout-mutiny-over-de-blasios-refusal-to-close-schools/",
+    "urlToImage": "https://thenypost.files.wordpress.com/2020/03/michael-mulgrew-bill-de-blasio-sickout.jpg?quality=90&strip=all&w=1200",
+    "publishedAt": "2020-03-14T23:34:46Z",
+    "content": "Some New York City teachers are calling for mass sickout mutiny in defiance of Mayor Bill de Blasios refusal to close public schools to stem the coronavirus outbreak.\r\nWith Twitter postings and emails urging a revolt, worried teachers are consulting colleague… [+3861 chars]"
+  },
+  {
+    "source": {
+      "id": "politico",
+      "name": "Politico"
+    },
+    "author": null,
+    "title": "Virginia governor announces state's first death from coronavirus - POLITICO",
+    "description": "The patient was a male in his 70s who acquired the virus from an unknown source.",
+    "url": "https://www.politico.com/news/2020/03/14/virginia-first-coronavirus-death-129597",
+    "urlToImage": "https://static.politico.com/99/2e/c72c6a9c43d9a31902e17bd3b752/190607-northam-ap-773.jpg",
+    "publishedAt": "2020-03-14T23:11:44Z",
+    "content": "On behalf of the entire Commonwealth, we express our deepest sympathy for the family and loved ones of the patient who died, as well as the families of everyone who has been affected by this outbreak, State Health Commissioner Norman Oliver said.The health of… [+468 chars]"
+  },
+  {
+    "source": {
+      "id": null,
+      "name": "Nytimes.com"
+    },
+    "author": "Katie Hafner",
+    "title": "How to Protect Older People From the Coronavirus - The New York Times",
+    "description": "People over 60, and especially over 80, are particularly vulnerable to severe or fatal infection. Here are some steps to reduce their risk.",
+    "url": "https://www.nytimes.com/2020/03/14/health/coronavirus-elderly-protection.html",
+    "urlToImage": "https://static01.nyt.com/images/2020/03/14/science/14VIRUS-ELDERLY1/14VIRUS-ELDERLY1-facebookJumbo.jpg",
+    "publishedAt": "2020-03-14T23:04:04Z",
+    "content": "These conditions can limit underlying reserve and lead to worse outcomes when older people become severely ill, which taxes all organ systems, said Dr. Annie Luetkemeyer, an infectious diseases specialist at Zuckerberg San Francisco General Hospital.\r\nFor exa… [+1621 chars]"
+  },
+  {
+    "source": {
+      "id": "cnbc",
+      "name": "CNBC"
+    },
+    "author": "Leslie Josephs",
+    "title": "Delta, pilot union reach agreement to offer partial pay after virus forces flight cuts - CNBC",
+    "description": "Delta and its pilots' union have reached an agreement on voluntary, reduced pay and other issues as the coronavirus prompts the airline to make deep cuts.",
+    "url": "https://www.cnbc.com/2020/03/14/delta-pilot-union-agree-on-partially-paid-time-off-as-coronavirus-forces-cuts.html",
+    "urlToImage": "https://image.cnbcfm.com/api/v1/image/106338661-1579121696842gettyimages-545398852.jpeg?v=1584123400",
+    "publishedAt": "2020-03-14T22:41:13Z",
+    "content": "Delta Air Lines and the union that represents its more than 14,000 have agreed to let the carrier offer partially paid time off for aviators through June, and possibly longer, as coronavirus devastates travel demand.\r\nDelta and other carriers are scrambling t… [+1782 chars]"
+  },
+  {
+    "source": {
+      "id": null,
+      "name": "Espn.com"
+    },
+    "author": "Jeff Borzello",
+    "title": "Q&A with Rick Pitino on Iona hiring, past issues at Louisville - ESPN",
+    "description": "Rick Pitino is back in college basketball as the head coach at Iona. He talked to ESPN's Jeff Borzello about his return.",
+    "url": "https://www.espn.com/mens-college-basketball/story/_/id/28902725/qa-rick-pitino-iona-hiring-issues-louisville",
+    "urlToImage": "https://a2.espncdn.com/combiner/i?img=%2Fphoto%2F2020%2F0314%2Fr679484_1296x729_16%2D9.jpg",
+    "publishedAt": "2020-03-14T22:40:18Z",
+    "content": "Rick Pitino is back in college basketball.\r\nThe former Louisville coach will be the next head coach at Iona, the school announced Saturday. Pitino replaces Tim Cluess, who said Friday he was stepping down after 10 years because of an undisclosed health issue … [+10789 chars]"
+  },
+  {
+    "source": {
+      "id": null,
+      "name": "Eonline.com"
+    },
+    "author": "Corinne Heller",
+    "title": "Meghan Markle, Prince Harry and Archie to Visit the Queen in the U.K. - E! NEWS",
+    "description": "Meghan Markle and Prince Harry plan to bring their son Archie back to the U.K. for a summer visit to spend time with Queen Elizabeth at Balmoral Castle, her vacation home in Scotland.",
+    "url": "https://www.eonline.com/news/1131124/meghan-markle-prince-harry-and-archie-to-return-to-the-u-k-to-visit-the-queen",
+    "urlToImage": "https://akns-images.eonline.com/eol_images/Entire_Site/2019825/rs_600x600-190925100107-600x600-archie-gj-9-25-19.jpg?fit=around|600:467&crop=600:467;center,top&output-quality=90",
+    "publishedAt": "2020-03-14T22:28:13Z",
+    "content": "Queen Elizabeth II is set to reunite with great-grandson Archie Harrison in the United Kingdom a few months, for what will mark his first trip back since he and parents Meghan Markle and Prince Harry moved to Canada late last year, E! News has confirmed.\r\nThe… [+1051 chars]"
+  },
+  {
+    "source": {
+      "id": null,
+      "name": "Nytimes.com"
+    },
+    "author": "John Leland",
+    "title": "Genesis Breyer P-Orridge, Musician, Artist and Provocateur, Dies at 70 - The New York Times",
+    "description": "Genesis achieved cult notoriety leading the British rock bands Throbbing Gristle and Psychic TV, and later pushed the limits of gender in a surgical project to merge identities with her wife.",
+    "url": "https://www.nytimes.com/2020/03/14/arts/music/genesis-breyer-p-orridge-dead.html",
+    "urlToImage": "https://static01.nyt.com/images/2019/11/14/obituaries/00Genesis1/00Genesis1-facebookJumbo.jpg",
+    "publishedAt": "2020-03-14T22:22:15Z",
+    "content": "Genesis kept evolving. After achieving cult notoriety in Throbbing Gristle, she found a broader rock audience in the 1980s with the occultist psychedelic band Psychic TV. The groups followers formed a cultlike network called Thee Temple ov Psychick Youth, wit… [+1818 chars]"
+  },
+  {
+    "source": {
+      "id": null,
+      "name": "Cbssports.com"
+    },
+    "author": null,
+    "title": "UFC Fight Night 170 odds, top predictions: MMA insider unveils picks for Lee vs. Oliveira, Burns vs. Maia - CBS Sports",
+    "description": "Kyle Marley just locked in UFC Fight Night 170 picks and predictions for every bout.",
+    "url": "https://www.cbssports.com/mma/news/ufc-fight-night-170-odds-top-predictions-mma-insider-unveils-picks-for-lee-vs-oliveira-burns-vs-maia/",
+    "urlToImage": "https://sportshub.cbsistatic.com/i/r/2020/03/14/adee4c60-2fef-4dc8-9b0e-0d0c1e6fa6ab/thumbnail/1200x675/54b9cd9746c9e414192adda3a5db91c3/charlesoliveira-1.jpg",
+    "publishedAt": "2020-03-14T22:19:03Z",
+    "content": "It wasn't until late Thursday night that UFC president Dana White publicly emerged and confirmed reports that most fight fans hoped were true: UFC Fight Night 170 in Brazil on Saturday will go on a scheduled. The 12-bout card will be one of the few sporting e… [+4972 chars]"
+  },
+  {
+    "source": {
+      "id": "business-insider",
+      "name": "Business Insider"
+    },
+    "author": "Lisa Eadicicco",
+    "title": "Apple Store closures may signal what's to come as coronavirus spreads - Business Insider - Business Insider",
+    "description": "Apple's reliance on China means it already has a plan for how to tackle the coronavirus outbreak in other markets around the world.",
+    "url": "https://www.businessinsider.com/coronavirus-apple-china-covid19-outbreak-stores-closing-precaution-analysis-prepare-2020-3",
+    "urlToImage": "https://i.insider.com/5e6d1bd9c485403c5141c7f2?width=1200&format=jpeg",
+    "publishedAt": "2020-03-14T22:10:11Z",
+    "content": "Business Insider\r\nFor much of the world, the severity and ongoing ramifications of COVID-19, the coronavirus disease, have come as a shock. For many, the pandemic has uprooted business operations and social norms, as companies across the United States are gra… [+4652 chars]"
+  },
+  {
+    "source": {
+      "id": "the-verge",
+      "name": "The Verge"
+    },
+    "author": "Kim Lyons",
+    "title": "Apple puts restrictions on coronavirus-themed apps in its App Store - The Verge",
+    "description": "Apple is closely evaluating apps with coronavirus focus. It says only “recognized entities such as government organizations, health-focused NGOs, companies deeply credentialed in health issues, and medical or educational institutions,” should submit such apps…",
+    "url": "https://www.theverge.com/2020/3/14/21179993/apple-restrictions-coronavirus-app-store",
+    "urlToImage": "https://cdn.vox-cdn.com/thumbor/OrCEcxQRSQP5T2C0miJ8ruYHs0E=/0x146:2040x1214/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/11477049/acastro_180604_1777_apple_wwdc_0002.jpg",
+    "publishedAt": "2020-03-14T21:53:36Z",
+    "content": "The company says coronavirus-themed games will not be allowed\r\nIllustration by Alex Castro / The Verge\r\nIn an effort to ensure the credibility of health and safety information in its App Store, Apple is tightening requirements for all coronavirus-focused apps… [+1028 chars]"
+  },
+  {
+    "source": {
+      "id": "fox-news",
+      "name": "Fox News"
+    },
+    "author": "Julia Musto",
+    "title": "Kid who got autograph from Utah Jazz player tests positive for coronavirus, but officials deny connection - Fox News",
+    "description": "A Rhode Island child who received an autograph from Utah Jazz’s Rudy Gobert has tested positive for coronavirus (COVID-19). However, state health officials are denying a link between the two cases.",
+    "url": "https://www.foxnews.com/sports/rhode-island-child-tests-positive-coronavirus-after-getting-autograph-utah-jazz-gobert-health-officials-deny-connection",
+    "urlToImage": "https://static.foxnews.com/foxnews.com/content/uploads/2020/03/Rudy-Gobert-Jazz-NBA-Getty.jpg",
+    "publishedAt": "2020-03-14T21:50:39Z",
+    "content": "A Rhode Islandchild who received an autograph from Utah Jazz’s Rudy Goberthas tested positive for coronavirus (COVID-19). However, state health officials are denying a link between the two cases.\r\nOn Friday, Westerly Police Chief Shawn Lacey announced that tw… [+3084 chars]"
+  },
+  {
+    "source": {
+      "id": "cbs-news",
+      "name": "CBS News"
+    },
+    "author": "Sophie Lewis",
+    "title": "Astronomers discover scorching hot planet where it rains liquid iron - CBS News",
+    "description": "On one particularly hot planet, hundreds of light-years away from Earth, the forecast is cloudy with a chance of liquid iron rain.",
+    "url": "https://www.cbsnews.com/news/astronomers-discover-scorching-hot-planet-rains-liquid-iron-2020-03-14/",
+    "urlToImage": "https://cbsnews1.cbsistatic.com/hub/i/r/2020/03/14/0f69910e-63e5-4a61-87aa-a2449a2d7841/thumbnail/1200x630/c70cb2081942d88e579653a431e4d638/eso2005a.jpg",
+    "publishedAt": "2020-03-14T21:38:07Z",
+    "content": "On one particularly hot planet, hundreds of light-years away from Earth, the forecast is cloudy with a chance of liquid iron rain. Scientists recently discovered the bizarre exoplanet, which they referred to as one of the most \"extreme\" they've ever observed.… [+2991 chars]"
+  },
+  {
+    "source": {
+      "id": "al-jazeera-english",
+      "name": "Al Jazeera English"
+    },
+    "author": "Ted Regencia",
+    "title": "Coronavirus: France shuts most public places - Latest updates - Al Jazeera English",
+    "description": "France closes down most shops, restaurants and entertainment centres and asks people to stay home as much as possible.",
+    "url": "https://www.aljazeera.com/news/2020/03/coronavirus-pandemic-worldwide-death-toll-surges-5000-200313233453162.html",
+    "urlToImage": "https://www.aljazeera.com/mritems/Images/2020/3/14/f373642817114f9dbceff496333d5087_18.jpg",
+    "publishedAt": "2020-03-14T21:09:37Z",
+    "content": "The worldwide death toll from the coronavirus pandemic surged past 5,000 on Saturday with the total number of cases rising to more than 140,000, as the infection continues to prompt countries to take unprecedented measures to help stave off a global health cr… [+30925 chars]"
+  },
+  {
+    "source": {
+      "id": null,
+      "name": "Cheatsheet.com"
+    },
+    "author": "Nicole Weaver",
+    "title": "Arie Luyendyk Jr. Feels Peter Weber's Ending of 'The Bachelor' Was 'Produced More' Than His Finale - Showbiz Cheat Sheet",
+    "description": "Many fans of 'The Bachelor' are comparing Arie Luyendyk Jr. and Peter Weber. Find out why the former star said he feels this finale was more produced.",
+    "url": "https://www.cheatsheet.com/entertainment/arie-luyendyk-jr-feels-peter-webers-ending-of-the-bachelor-was-produced-more.html/",
+    "urlToImage": "https://www.cheatsheet.com/wp-content/uploads/2020/03/Lauren-and-Arie-Luyendyk-Jr.jpg",
+    "publishedAt": "2020-03-14T21:04:48Z",
+    "content": "One person who could somewhat relate to Peter Weber’s journey on The Bachelor is Arie Luyendyk Jr. He watched the season and gave his own opinion on how Weber’s season ended. Find out why Luyendyk Jr. felt it was “produced more” than his finale and more.\r\nPet… [+2943 chars]"
+  },
+  {
+    "source": {
+      "id": null,
+      "name": "Gizmodo.com"
+    },
+    "author": "Alyse Stanley",
+    "title": "Can't Pay Your Apple Card Bill This Month? Apple Says Don't Sweat - Gizmodo",
+    "description": "Apple has announced a “Customer Assistance Program” for its credit card aimed at helping those affected by the ongoing global coronavirus pandemic who may be struggling to make this month’s payment. An Apple spokesperson confirmed the news with Gizmodo via em…",
+    "url": "https://gizmodo.com/cant-pay-your-apple-card-bill-this-month-apple-says-do-1842334420",
+    "urlToImage": "https://i.kinja-img.com/gawker-media/image/upload/c_fill,f_auto,fl_progressive,g_center,h_675,pg_1,q_80,w_1200/va7amzpwubo1ir7lifjd.jpg",
+    "publishedAt": "2020-03-14T20:59:47Z",
+    "content": "Apple has announced a Customer Assistance Program for its credit card aimed at helping those affected by the ongoing global coronaviruspandemic who may be struggling to make this months payment. An Apple spokesperson confirmed the news with Gizmodo via email … [+1692 chars]"
+  },
+  {
+    "source": {
+      "id": null,
+      "name": "Vox.com"
+    },
+    "author": "Anya van Wagtendonk",
+    "title": "The House coronavirus bill’s paid leave provision would leave out millions of workers - Vox.com",
+    "description": "A sweeping House bill will provide paid leave for Americans dealing with the coronavirus. But the legislation leaves out millions.",
+    "url": "https://www.vox.com/policy-and-politics/2020/3/14/21179925/coronavirus-house-bill-paid-leave-leave-out-millions-workers",
+    "urlToImage": "https://cdn.vox-cdn.com/thumbor/pTCXKQBRmm5HUOhxzYR-2BUhcAM=/0x322:4500x2678/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/19807195/GettyImages_1159130315.jpg",
+    "publishedAt": "2020-03-14T20:58:19Z",
+    "content": "The House of Representatives passed a sweeping coronavirus financial aid package early Saturday morning aimed at easing the economic toll that the novel coronavirus takes on individuals. Passed with bipartisan support, the emergency measure strengthens existi… [+4747 chars]"
+  },
+  {
+    "source": {
+      "id": "the-washington-post",
+      "name": "The Washington Post"
+    },
+    "author": "Missy Ryan, Louisa Loveluck, Mustafa Salim",
+    "title": "Fresh rocket attack wounds international troops in Iraq, potentially deepening U.S.-Iran tensions - The Washington Post",
+    "description": "Two dozen projectiles hit Camp Taji, the site of an attack earlier this week that killed two American troops and a British service member.",
+    "url": "https://www.washingtonpost.com/national-security/rocket-attack-injures-troops-in-iraq-potentially-deepening-us-iran-tensions/2020/03/14/6ddf168c-65fa-11ea-912d-d98032ec8e25_story.html",
+    "urlToImage": "https://www.washingtonpost.com/resizer/UL2sdPRdQSE-KLRqQzaDZOTVo4Y=/1440x0/smart/arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/SOHJODTGCMI6VM74PBAWQ3C4K4.jpg",
+    "publishedAt": "2020-03-14T20:24:22Z",
+    "content": "The Iraqi military said in a statement that the blatant attack had struck Iraqi air defense units and warned the perpetrators and those who may have enabled them. It said seven rocket launchers had been found in a garage near the base, along with two dozen ro… [+4126 chars]"
+  },
+  {
+    "source": {
+      "id": null,
+      "name": "Appleinsider.com"
+    },
+    "author": "AppleInsider",
+    "title": "Apple employees working from home stumbling over confusing security guidelines - AppleInsider",
+    "description": "As Apple employees adjust to working from home, they discover that slow home network speeds and confusing security restrictions are impacting their ability to work effectively.",
+    "url": "https://appleinsider.com/articles/20/03/14/apple-employees-working-from-home-stumbling-over-confusing-security-guidelines",
+    "urlToImage": "https://photos5.appleinsider.com/gallery/34921-63438-F5628219-562C-40C3-B924-ACCC09600899-xl.jpg",
+    "publishedAt": "2020-03-14T20:12:10Z",
+    "content": "As Apple employees adjust to working from home, they discover that slow home network speeds and confusing security restrictions are impacting their ability to work effectively.Apple CEO Tim Cook told employees on March 6th to work from home as necessary to co… [+1265 chars]"
+  }
+]
+}
